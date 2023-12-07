@@ -1,0 +1,27 @@
+{
+  "@context": [
+    "https://www.w3.org/2018/credentials/v1",
+    "https://w3id.org/vc/status-list/2021/v1",
+    "https://w3id.org/security/suites/ed25519-2020/v1"
+  ],
+  "id": "https://DigiEduCred.github.io/credential-status/ZVCMVRSUY6",
+  "type": [
+    "VerifiableCredential",
+    "StatusList2021Credential"
+  ],
+  "credentialSubject": {
+    "id": "https://DigiEduCred.github.io/credential-status/ZVCMVRSUY6#list",
+    "type": "StatusList2021",
+    "encodedList": "H4sIAAAAAAAAA-3BMQEAAADCoPVPbQsvoAAAAAAAAAAAAAAAAP4GcwM92tQwAAA",
+    "statusPurpose": "revocation"
+  },
+  "issuer": "did:key:z6MkuErf5KFc9jKSizJq5HCG44opNYdVpmJ9CdozjvMyPmuw",
+  "issuanceDate": "2023-12-06T15:22:18.176Z",
+  "proof": {
+    "type": "Ed25519Signature2020",
+    "created": "2023-12-06T15:22:18Z",
+    "verificationMethod": "did:key:z6MkuErf5KFc9jKSizJq5HCG44opNYdVpmJ9CdozjvMyPmuw#z6MkuErf5KFc9jKSizJq5HCG44opNYdVpmJ9CdozjvMyPmuw",
+    "proofPurpose": "assertionMethod",
+    "proofValue": "z3u1faK1VSaJMrGSDok2kCzfKo6TVn475DFJjMp7ECpk6ZJgcHKPBNoW8tdMwQgDKC1gwm5vsedmbJX3GXGnCGY5"
+  }
+}
